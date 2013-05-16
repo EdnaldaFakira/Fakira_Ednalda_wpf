@@ -1,8 +1,10 @@
 //Ednalda Fakira  05/16/2013 Expressions_industry
 
-var infoneed = new Array();
-infoneed [0] = "Your photo dimensions";
-infoneed [1] = "Your photo dpi";
+var infoNeed = new Array();
+infoNeed [0] = "Your photo dimensions";
+infoNeed [1] = "Your photo dpi";
+totalInfoNeed = "Your photo dimensions" + "Your photo dpi";
+console.log(totalInfoNeed);
 
 
 var  width = prompt(" Please enter the width of the photo ");
