@@ -6,5 +6,4 @@ var dpi = 100;
 
 var resolution = (width * dpi) * (height * dpi);
 var resultPixel = "The resolution is " + resultion + "pixels"
-
-
+console.log(resultPixel);
