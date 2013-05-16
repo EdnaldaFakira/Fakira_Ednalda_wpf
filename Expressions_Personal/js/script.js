@@ -1,5 +1,11 @@
 //Ednalda Fakira 05/16/2013 Expressions_Personal
 
+
+var infoNeed = new Array();
+infoNedd [0] = "Your Weekly Hours";
+infoNedd [1] = "Your hour rate";
+
+
 var firstName = prompt(" Please enter your first name ");
 var lastName = prompt(" Please enter your last name");
 var fullName = firstName + " " + lastName;
@@ -22,8 +28,5 @@ var netIncome = grossIncome - totalTax;
 var result = "Your check this week is $" + netIncome;
 console.log(resultNetIncome);
 
-var infoNeed = new Array();
-infoNedd [0] = "Your Weekly Hours";
-infoNedd [1] = "Your hour rate";
 
 
