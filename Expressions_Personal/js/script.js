@@ -17,7 +17,7 @@ var resultGrossIncome = "Your Goss Income this week is $" + grossIncome;
 console.log(resultGrossIncome);
 
 var taxPercentage = 30;
-var totalTax = taxPercentage /  grossIncome * 100;
+var totalTax = grossIncome * taxPercentage / 100;
 var resultTax = "Your tota tax amount this week is $" + totalTax;
 console.log(resultTax);
 
@@ -28,11 +28,14 @@ console.log(resultNetIncome);
 var weekOne = prompt(" Please enter the number of hours you worked last week" );
 var weekTwo = prompt(" Please enter the number of hours you worked before last week ");
 var weekThree = prompt(" Plese enter the number of the hours you worked three weeks ago ");
-var weekFour = prompt(" Please enter the number of the hours you worked four weeks ago ");
 
-var monthlyHours = weekOne[0] + weekTwo[1] + weekThree[2] + weekFour[3];
+console.log(weekOne);
+console.log(weekTwo);
+consoloe.log(weekThree); 
+
+var monthlyHours = weeklyHours[0] + weekOne[1] + weekTwo[2] + weekThree[3];
 var montlyResult = "You worked " + monthlyHours + " hours in the last four weeks";
-console.log(monthlyRsult);
+console.log(monthlyResult);
 
 
 
