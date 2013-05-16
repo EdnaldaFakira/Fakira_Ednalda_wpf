@@ -21,3 +21,6 @@ console.log(totalTax);
 var netIncome = grossIncome - totalTax;
 console.log(netIncome);
 
+var infoNeed = new Array();
+infoNedd [0] = "Your Weekly Hours";
+infoNedd [1] = "Your hour rate";
