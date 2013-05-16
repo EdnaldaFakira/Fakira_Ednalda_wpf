@@ -25,7 +25,15 @@ var netIncome = grossIncome - totalTax;
 var result = "Your check this week is $" + netIncome;
 console.log(resultNetIncome);
 
-var 
+var weekOne = prompt(" Please enter the number of hours you worked last week" );
+var weekTwo = prompt(" Please enter the number of hours you worked before last week ");
+var weekThree = prompt(" Plese enter the number of the hours you worked three weeks ago ");
+var weekFour = prompt(" Please enter the number of the hours you worked four weeks ago ");
+
+var monthlyHours = weekOne[0] + weekTwo[1] + weekThree[2] + weekFour[3];
+var montlyResult = "You worked " + monthlyHours + " hours in the last four weeks";
+console.log(monthlyRsult);
+
 
 
 
