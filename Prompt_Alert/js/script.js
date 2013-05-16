@@ -1,6 +1,7 @@
 //Prompt and Alert
 
-var userImput = prompt("Enter your year of birth");
-console.log(userImput); 
+var width = prompt("We are calculating the area of a rectangle. Please enter the width");
+var height = prompt("Please enter the height");
+
 
 
