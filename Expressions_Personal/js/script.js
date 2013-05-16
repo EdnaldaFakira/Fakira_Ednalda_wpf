@@ -18,11 +18,12 @@ console.log(weeklyHours);
 console.log(hourRate);
 
 var grossIncome = weeklyHours * hourRate;
+var resultGrossIncome = "Your Goss Income this week is $" + grossIncome;
 console.log(grossIncome);
 
 var taxPercentage = 30;
 var totalTax = taxPercentage /  grossIncome * 100;
-var resultTax = "Your tota tax amount this week is $" + totalTax
+var resultTax = "Your tota tax amount this week is $" + totalTax;
 console.log(resultTax);
 
 var netIncome = grossIncome - totalTax;
