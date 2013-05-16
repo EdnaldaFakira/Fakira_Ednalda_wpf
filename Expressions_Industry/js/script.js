@@ -5,6 +5,11 @@ var  width = prompt(" Please enter the width of the photo ");
 var height = prompt(" Please enter the height of the photo ");
 var  dpi   = prompt(" Please enter the dpi of the photo ");
 
+console.log(width);
+console.log(height);
+console.log(dpi);
+
+
 
 
 var resolution = (width * dpi) * (height * dpi);
