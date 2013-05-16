@@ -2,7 +2,7 @@
 
 var infoneed = new Array();
 infoneed [0] = "Your photo dimensions";
-infoneed [1] = "Your photo pixelsm or dpi";
+infoneed [1] = "Your photo dpi";
 
 
 var  width = prompt(" Please enter the width of the photo ");
