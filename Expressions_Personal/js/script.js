@@ -19,8 +19,11 @@ var totalTax = taxPercentage /  grossIncome * 100;
 console.log(totalTax);
 
 var netIncome = grossIncome - totalTax;
-console.log(netIncome);
+var result = "Your check this week is $" + netIncome;
+console.log(resultNetIncome);
 
 var infoNeed = new Array();
 infoNedd [0] = "Your Weekly Hours";
 infoNedd [1] = "Your hour rate";
+
+
