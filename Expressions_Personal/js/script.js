@@ -22,7 +22,8 @@ console.log(grossIncome);
 
 var taxPercentage = 30;
 var totalTax = taxPercentage /  grossIncome * 100;
-console.log(totalTax);
+var resultTax = "Your tota tax amount this week is $" + totalTax
+console.log(resultTax);
 
 var netIncome = grossIncome - totalTax;
 var result = "Your check this week is $" + netIncome;
