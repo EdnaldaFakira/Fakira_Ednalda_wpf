@@ -12,6 +12,7 @@ console.log(weeklyHours);
 console.log(hourRate);
 
 var grossIncome = weeklyHours * hourRate;
+console.log(grossIncome);
 
 var taxPercentage = 30;
 var totalTax = taxPercentage /  grossIncome * 100;
