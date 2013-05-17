@@ -27,4 +27,4 @@ console.log(cabinetQy); //declares variable totalCabinet and defines
 
 
 var wood = [pine, oak, cherry]; //declares variable wood defines the value as array
-var allWood = pine[0]; //declares variable allwood defines the value position
+var allWood = cherry[0]; //declares variable allwood defines the value position
