@@ -13,6 +13,6 @@ var resolution = (width * dpi) * (height * dpi); //declares and defines the reso
 var resultPixel = "The resolution of your photo is " + resolution + " pixels per total sq ft"; //declares the variable that show as a expression the resolution
 console.log(resultPixel); //print out the resolution  
 
-var sqFt = [width, height];
-var totalSqFt = width [0] * height[1];
-
+var sqFt = [width, height]; //declares variable and defines value as array
+var totalSqFt = width [0] * height[1]; //declares variable and defines value multiplying width by height positions
+console.log(totalSqFt); //print out totalSqFt value
