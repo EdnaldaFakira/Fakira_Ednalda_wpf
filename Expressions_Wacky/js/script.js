@@ -17,7 +17,7 @@ var fianalPrice = totalPrice + tax;
 var finalPriceDo = " The total price of each cabinet with sales tax included is $" + finalPrice;
 console.log(finalPriceDo);
 
-var cabinet = [5, 12, 15, 20]
+var cabinet = [5, 12, 15, 20, 4, 9, 0]
 var cabinetQy = 5[0] + 12[1];
 var totalCabinet = cabinetQy;
 
