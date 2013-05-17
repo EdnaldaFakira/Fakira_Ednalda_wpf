@@ -20,6 +20,7 @@ console.log(finalPriceDo);
 var cabinet = [5, 12, 15, 20, 4, 9, 0]
 var cabinetQy = 5[0] + 12[1];
 var totalCabinet = cabinetQy;
+console.log(totalCabinet);
 
 var wood = [pine, oak, cherry];
 var allWood = pine[0]; 
