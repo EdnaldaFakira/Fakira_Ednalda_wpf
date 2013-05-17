@@ -8,3 +8,9 @@ var area = "The total area of your cabinet is " + totalArea + "sq ft";
 console.log(height);
 console.log(widht);
 console.log(area);
+
+var price = totalArea * 10 + (totalArea * 3 / 100);
+var totalPrice = " The price of your cabinet is $" + price;
+
+var wood = [pine, oak, cherry];
+var allWood = pine[0];
