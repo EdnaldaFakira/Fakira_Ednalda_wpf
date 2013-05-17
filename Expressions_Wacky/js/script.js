@@ -2,7 +2,7 @@
 
 var height = prompt(" Please enter the Height of your cabinet ");
 var width + prompt(" Please enter the width of your cabinet ");
-var totalArea = height * widht;
+var totalArea = height * 
 
 console.log(height);
 console.log(widht);
