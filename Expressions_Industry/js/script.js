@@ -15,4 +15,4 @@ console.log(resultPixel); //print out the resolution
 
 var sqFt = [width, height];
 var totalSqFt = width [0] * height[1];
-console.log(totalSqFt);
+
