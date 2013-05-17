@@ -2,7 +2,7 @@
 var lastName = prompt("Please enter your last name ");
 var firstName = prompt(" Please enter your first name ");
 var fullName = firstName + lastName;
-console.log(fullnName);
+console.log(fullName);
 
 var height = prompt(" Please enter the Height of your cabinet "); //declares variable and defines the  height imput value
 var width + prompt(" Please enter the width of your cabinet "); //declares variable and defines the width imput value
@@ -26,5 +26,5 @@ var cabinetQy = 5[0] + 12[1]; //declares variable and defines how many cabinets 
 console.log(cabinetQy); //declares variable totalCabinet and defines 
 
 
-var wood = [pine, oak, cherry];
-var allWood = pine[0]; 
+var wood = [pine, oak, cherry]; //declares variable wood defines the value as array
+var allWood = pine[0]; //declares variable allwood defines the value position
