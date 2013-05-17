@@ -33,8 +33,9 @@ console.log(weekOne); //print out the weekOne value
 console.log(weekTwo); //print out the weekTwo value
 consoloe.log(weekThree); //print out the weekThree value
 
-var monthlyHours = weeklyHours[0] + weekOne[1] + weekTwo[2] + weekThree[3]; //declares variable and defines value by add all the weekly hours from the last four weeks
-var montlyResult = "You worked " + monthlyHours + " hours in the last four weeks"; //declares variable and defines value as an expression showing the montlyHours value
+var monthlyHours = [weeklyHours, weekOne, weekTwo, weekThree]; //declares variable and defines value by eacht weekly hours from the last four weeks
+var monthlyHoursWorked = weeklyHours[0] + weekOne [1] + weekTwo [2] + weekThree[3]; //declares variable and defines value by add all the weekly hours from the last four weeks
+var montlyResult = "You worked " + monthlyHoursWorked + " hours in the last four weeks"; //declares variable and defines value as an expression showing the montlyHours value
 console.log(monthlyResult); //print out rhe montlyResult value
 
 
