@@ -19,8 +19,8 @@ console.log(finalPriceDo); //print out the finalPriceDo value
 
 var cabinet = [5, 12, 15, 20, 4, 9, 0]; //declares variable cabinet and defines the  sequency of week days as 0 = sunday
 var cabinetQy = 5[0] + 12[1]; //declares variable and defines how many cabinets sold this week
- //declares variable totalCabinet and defines 
-console.log(totalCabinet);
+console.log(cabinetQy); //declares variable totalCabinet and defines 
+
 
 var wood = [pine, oak, cherry];
 var allWood = pine[0]; 
