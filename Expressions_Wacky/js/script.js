@@ -12,7 +12,9 @@ console.log(area);
 var price = totalArea * 10 + (totalArea * 3 / 100);
 var totalPrice = " The price of your cabinet is $" + price;
 var tax = totalPrice + (totalPrice * 6 / 100);
-var finalPrice = " The total price of your cabinet with sales tax included is $" + finalPrice;
+var fianlPrice = totalPrice + tax;
+var finalPriceDo = " The total price of your cabinet with sales tax included is $" + finalPrice;
+console.log(finalPriceDo);
 
 var wood = [pine, oak, cherry];
 var allWood = pine[0];
