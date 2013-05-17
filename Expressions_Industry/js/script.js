@@ -15,5 +15,5 @@ console.log(resultPixel); //print out the resolution
 
 var sqFt = [width, height]; //declares variable and defines value as array
 var totalSqFt = width [0] * height[1]; //declares variable and defines value multiplying width by height positions
-var resultArea = " The total area of your photo is " + totalSqFt + "sqFt";
+var resultArea = " The total area of your photo is " + totalSqFt + "sqFt"; //declare variable and defines the totalSqFt value in a complete expression 
 console.log(totalSqFt); //print out totalSqFt value
