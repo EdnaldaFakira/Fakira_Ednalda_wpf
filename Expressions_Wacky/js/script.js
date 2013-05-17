@@ -1,6 +1,8 @@
 //Ednalda Fakirs 05/16/2013 Expression_Wacky
 var lastName = prompt("Please enter your last name ");
 var firstName = prompt(" Please enter your first name ");
+var fullnName = firstName + lastName;
+
 var height = prompt(" Please enter the Height of your cabinet "); //declares variable and defines the  height imput value
 var width + prompt(" Please enter the width of your cabinet "); //declares variable and defines the width imput value
 var totalArea = height * width; //declared variable and defines value as totalArea
