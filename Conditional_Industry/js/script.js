@@ -6,8 +6,8 @@ var windowcolorEnter = prompt("Please enter the window color: white, black or bl
 var windowColor = "white"; //variable windowColor defines the value as "white"
 var windowSize = windowWidth * windowHeight; //variable windowSize calcules the windowWidth times windowHeight
 
-if (windowWidth === windowHeight){
-	console.log("Your window is square with" + windowSize + "sq");
+if (windowWidth === windowHeight && windowcolorEnter === "black" || windowcolorEnter === "blue"){
+	console.log("Your window is square with" + windowSize + "sq and is good for commercial websites");
 	//print the value as a message and the area of the window
 }
 
@@ -17,7 +17,7 @@ if else (windowHeight > windowWidth || windowWidth > windowHeight){
 }
 
 
-else (windowHeight == "" || windowWidth == ""){
+else (windowHeight == "" || windowWidth == "" ){
 	console.log("You need to enter width and height");
 	//print a message to remenber to enter the width and height to calcletes the area 
 }
