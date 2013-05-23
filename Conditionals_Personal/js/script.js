@@ -20,6 +20,7 @@ else if (flightTime 6 > 22 && destinationEnter === "Florida") {
 }
 else if (destinationEnter === "" || age === "" || flightTime === "" || hotelDays === ""){
 	console.log("You need to enter the information");
+	//when customer forgets to enter any of the information into the prompt command, the message will be print to remains him the information is needed
 }
 else {
 	console.log("Your vacation packet price is $" + totalPrice);
