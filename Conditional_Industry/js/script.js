@@ -2,7 +2,7 @@
 
 var windowWidth = prompt("Please enter the width"); //enter the width value
 var windowHeight = prompt("Please enter the height"); //enter the height value
-var windowSize = windowWidth * windowHeight;
+var windowSize = windowWidth * windowHeight; //variable windowSize calcules the windowWidth times windowHeight
 
 if (windowWidth === windowHeight){
 	console.log("Your window is square with" + windowSize + "sq");
