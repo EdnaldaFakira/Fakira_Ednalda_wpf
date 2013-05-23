@@ -11,7 +11,7 @@ var priceTicket = 200; //price of the flight ticket
 var totalPrice = priceTicket + hotelDays * hotel + carTakes * carRent; //total price of the vacation packet calculating the priceticket, how many days in a hotel and car rented
 
 if (flightTime 22 >= 6 && destinationEnter === "Florida" ) {
-	console.log("You have a 10% of descont of your flight ticket");
-	//customer gets 10% of descont if choose to travel betwee 10 PM and 6 AM
+	console.log("You have a 10% of descount of your flight ticket");
+	//customer gets 10% of descount if choose to travel between 10 PM and 6 AM
 }
 else if ()
