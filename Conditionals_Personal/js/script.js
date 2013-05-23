@@ -21,5 +21,5 @@ else if (flightTime 6 > 22 && destinationEnter === "Florida") {
 
 else {
 	console.log("Your vacation packet price is $" + totalPrice);
-	//print the vacation price without discount
+	//print the vacation packet price without discount
 }
