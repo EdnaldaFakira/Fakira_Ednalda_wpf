@@ -10,3 +10,4 @@ if(iPhonepPrice < budget && payCheck > 300 || wonLottery){console.log("We can bu
 else {console.log("No phone for you!");// if the budget is greater than the iphone price no phone for us
 
 } 
+
