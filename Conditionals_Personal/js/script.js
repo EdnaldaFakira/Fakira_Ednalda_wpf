@@ -18,3 +18,8 @@ else if (flightTime 6 > 22 && destinationEnter === "Florida") {
 	console.log("You have 5% of discount and your vacation packet is $" + totalPrice);
 	//traveling betwen 6:00 AM and 9:59 PM to Florida get 5% of discount 
 }
+
+else {
+	console.log("Your vaction packet price is $" + totalPrice);
+	//print the vacation price without discount
+}
