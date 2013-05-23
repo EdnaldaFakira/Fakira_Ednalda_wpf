@@ -8,3 +8,6 @@ var legal = prompt("Are you citizens or legal resident");
 if (age > = 18 && legal === yes){
 	console.log("You can get your drive license");
 }
+
+if else (age >= 15 && legal === yes && state == "Florida")
+}
