@@ -5,9 +5,11 @@ var windowHeight = prompt("Please enter the height");
 var windowSize = windowWidth * windowHeight;
 
 if (windowWidth === windowHeight){
-	console.log("Your window is square");
+	console.log("Your window is square with" + windowSize + "sq");
 }
 
 if else (windowHeight > windowWidth || windowWidth > windowHeight){
-	console.log("Your window is retang")
+	console.log("Your window is rectangle" + windowSize + "sq");
 }
+
+
