@@ -2,6 +2,7 @@
 
 var windowWidth = prompt("Please enter the width"); //enter the width value
 var windowHeight = prompt("Please enter the height"); //enter the height value
+var windowColor = "white";
 var windowSize = windowWidth * windowHeight; //variable windowSize calcules the windowWidth times windowHeight
 
 if (windowWidth === windowHeight){
@@ -11,7 +12,7 @@ if (windowWidth === windowHeight){
 
 if else (windowHeight > windowWidth || windowWidth > windowHeight){
 	console.log("Your window is rectangle" + windowSize + "sq");
-	//print the value as a message  showing that the window is a rectagle and the area of the window 
+	//print the value as a message showing that the window is a rectagle and the area of the window 
 }
 
 
