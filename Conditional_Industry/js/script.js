@@ -1,7 +1,7 @@
 //Ednalda Fakira 05/23/2013 Conditional Industry
 
 var windowWidth = prompt("Please enter the width"); //enter the width value
-var windowHeight = prompt("Please enter the height");
+var windowHeight = prompt("Please enter the height"); //enter the height value
 var windowSize = windowWidth * windowHeight;
 
 if (windowWidth === windowHeight){
