@@ -19,5 +19,5 @@ if else (windowHeight > windowWidth || windowWidth > windowHeight && windowColor
 
 else (windowHeight == "" || windowWidth == "" || windowColorEnter === "" ){
 	console.log("You need to enter width and height");
-	//print a message to remenber to enter the width and height to calcletes the area 
+	//print a message to remenber to enter the width and height to calculetes the area, and the color
 }
