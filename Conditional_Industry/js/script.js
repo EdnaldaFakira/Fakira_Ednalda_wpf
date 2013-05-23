@@ -13,3 +13,6 @@ if else (windowHeight > windowWidth || windowWidth > windowHeight){
 }
 
 
+else (windowHeight == "" || windowWidth == ""){
+	console.log("You need to enter width and height");
+}
