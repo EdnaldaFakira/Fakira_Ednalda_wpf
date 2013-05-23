@@ -6,6 +6,7 @@ var windowSize = windowWidth * windowHeight; //variable windowSize calcules the 
 
 if (windowWidth === windowHeight){
 	console.log("Your window is square with" + windowSize + "sq");
+	//print the value as a message and the area of the window
 }
 
 if else (windowHeight > windowWidth || windowWidth > windowHeight){
