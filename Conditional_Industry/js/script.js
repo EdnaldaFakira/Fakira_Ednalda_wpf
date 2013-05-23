@@ -2,7 +2,7 @@
 
 var windowWidth = prompt("Please enter the width"); //enter the width value
 var windowHeight = prompt("Please enter the height"); //enter the height value
-var windowColor = "white";
+var windowColor = "white"; //variable windowColor defines the value as "white"
 var windowSize = windowWidth * windowHeight; //variable windowSize calcules the windowWidth times windowHeight
 
 if (windowWidth === windowHeight){
