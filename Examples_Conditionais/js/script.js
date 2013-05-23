@@ -7,7 +7,7 @@ if (kidHeight  + sneakerLift > minHeight){console.log("You can ride the coaster!
 
 }  //code performed if the condintion is true. if the kid is over 48 inches in height
 
-else if(kidHeight > wParentHeight){ "You can ride, but only with a parent present."
+else if(kidHeight > wParentHeight){ console.log("You can ride, but only with a parent present.");
 
 } //you can ride if you have your parent present
 
