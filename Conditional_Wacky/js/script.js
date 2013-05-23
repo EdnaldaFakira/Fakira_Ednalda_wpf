@@ -2,7 +2,7 @@
 
 
 var age = prompt("How old are you?"); //declares the variable age and defines value as prompt
-var state = prompt("Please enter the state you live"); 
+var state = prompt("Please enter the state you live"); //dclares the variable state and defines value as prompt as state
 var legal = prompt("Are you citizens or legal resident");
 var cost = 50;
 var costFlorida = 50 * 6 / 100 + cost;
