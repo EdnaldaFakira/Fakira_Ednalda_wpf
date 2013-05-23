@@ -6,7 +6,7 @@ var state = prompt("Please enter the state you live"); //dclares the variable st
 var legal = prompt("Are you citizens or legal resident");//declares the variable legal and defines value as prompt to enter the legal status
 var cost = 50; //declares the variable cost and defines value as 50
 var costFlorida = 50 * 6 / 100 + cost; //declares the variable costFlorida and defines value as 50 + 6%
-var costOtherState = 50 * 8 / 100 + cost;
+var costOtherState = 50 * 8 / 100 + cost; //declares the variable costOtherState and defines value as 50 + 8%
 
 if (age >= 18 && legal === yes && state === "Florida"){
 	console.log("You can get your driver license. The price is $" + costFlorida);
