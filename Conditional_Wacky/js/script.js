@@ -8,11 +8,11 @@ var cost = 50;
 var costFlorida = 50 * 6 / 100 + cost;
 
 if (age > = 18 && legal === yes && state === "Florida"){
-	console.log("You can get your drive license  and will cost $" + costFlorida);
+	console.log("You can get your drive license and the price is $" + costFlorida);
 }
 
 if else (age >= 15 && legal === yes && state == "Florida"){
-    console.log("You only can get the permit");
+    console.log("You only can get the permit and the  price is 0");
 }
 
 if else (age >= 16 && legal === yes && state !=== "Florida"){
