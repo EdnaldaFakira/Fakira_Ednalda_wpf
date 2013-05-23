@@ -10,8 +10,8 @@ var carRent = 30; //price the car rent per day
 var priceTicket = 200; //price of the flight ticket
 var totalPrice = priceTicket + hotelDays * hotel + carTakes * carRent; //total price of the vacation packet calculating the priceticket, how many days in a hotel and car rented
 
-if (flightTime 22 >= 6 && destinationEnter === "Florida" ) {
-	console.log("You have a 10% of descount of your flight ticket");
+if (flightTime 22 >= 6 && destinationEnter === "Florida" || age > 12) {
+	console.log("You have a 10% of descount of your flight ticket and your vacation packet is" + totalPrice);
 	//customer gets 10% of descount if choose to travel between 10 PM and 6 AM
 }
-else if ()
+else if (flightTime 22 < 6 && )
