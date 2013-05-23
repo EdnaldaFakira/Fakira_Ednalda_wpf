@@ -3,3 +3,9 @@
 var windowWidth = prompt("Please enter the width");
 var windowHeight = prompt("Please enter the height");
 var windowSize = windowWidth * windowHeight;
+
+if (windowWidth === windowHeight){
+	console.log("Your window is square");
+}
+
+
