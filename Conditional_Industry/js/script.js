@@ -11,6 +11,7 @@ if (windowWidth === windowHeight){
 
 if else (windowHeight > windowWidth || windowWidth > windowHeight){
 	console.log("Your window is rectangle" + windowSize + "sq");
+	//print the value as a message  showing that the window is a rectagle and the area of the window 
 }
 
 
