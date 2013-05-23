@@ -24,7 +24,6 @@ var totalPrice = priceTicket + hotelDays * hotel + carTakes * carRent; //total p
 	//print the vacation packet price without discount
 //}
 
-(flightTime 6 =< 22 && destinationEnter === "Florida" || age > 12) ? console.log("You have 5% of discount and your vacation packet is $" + totalPrice * 5 / 100) : (flightTime 6 > 22 && destinationEnter === "Florida")
 
 
 
