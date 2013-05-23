@@ -8,4 +8,6 @@ if (windowWidth === windowHeight){
 	console.log("Your window is square");
 }
 
-
+if else (windowHeight > windowWidth || windowWidth > windowHeight){
+	console.log("Your window is retang")
+}
