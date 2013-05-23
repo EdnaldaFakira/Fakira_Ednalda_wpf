@@ -19,7 +19,7 @@ else if (flightTime 6 > 22 && destinationEnter === "Florida") {
 	//traveling betwen 6:00 AM and 9:59 PM to Florida get 5% of discount 
 }
 else if (destinationEnter === "" || age === "" || flightTime === "" || hotelDays === ""){
-	
+	console.log("You need to enter the information");
 }
 else {
 	console.log("Your vacation packet price is $" + totalPrice);
