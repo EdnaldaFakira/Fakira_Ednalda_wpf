@@ -1,6 +1,6 @@
 //Ednalda Fakira 05/23/2013 Conditional Personal
 
-var destinationEnter = prompt("Please enter your destination")
+var destinationEnter = prompt("Please enter your destination"); //customer enters the vacation destination
 var age = prompt("Please enter your age"); //Custormer enter his age
 var flightTime = prompt("Please enter the time you want to travel"); //Customer enter the time wish to travel
 var hotelDays = prompt("Please enter how many days you want to stay");
