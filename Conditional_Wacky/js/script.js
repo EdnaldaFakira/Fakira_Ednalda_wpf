@@ -10,25 +10,31 @@ var costOtherState = 50 * 8 / 100 + cost; //declares the variable costOtherState
 
 if (age >= 18 && legal === yes && state === "Florida"){
 	console.log("You can get your driver license. The price is $" + costFlorida);
+	//condition to get driver license. Print message "you can get your driver license" and the price in Florida
 }
 
 if (age >= 18 && legal === yes && state !=== "Florida"){
 	console.log("You can get your driver license. The price is $" + costOtherState);
+	//condition to get driver license. Print message "You can get your driver license" and the price in other states
 }
 
 if else (age >= 15 && legal === yes && state == "Florida"){
     console.log("You only can get the permit. The  price is 0");
+    //condition to get permit. Print the message "You only can get the permit" and the price in Florida
 }
 
 if else (age >= 16 && legal === yes && state !=== "Florida"){
 console.log("You only can get the permit. The price is 0");
+//conditon to get the permit. Print the message "You only can get the permit" and the price is 0
 }
 
 if else (age === "" || state === "" || legal === ""){
  	console.log("Please enter the information");
+ 	//condition  as any empty prompt to get the message "Please enter the information"
  }
 
 else {
-	console.log("You can't have driver license yeat");
+	console.log("You can't have driver license yet");
+	//condition to anything else wil get the message "Yu can't have driver license yet"
 }
 
