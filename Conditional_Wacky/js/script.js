@@ -12,3 +12,7 @@ if (age > = 18 && legal === yes){
 if else (age >= 15 && legal === yes && state == "Florida"){
     console.log("You only can get the permit");
 }
+
+else {
+	console.log("You can't have drive license yeat")
+}
