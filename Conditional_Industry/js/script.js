@@ -17,4 +17,5 @@ if else (windowHeight > windowWidth || windowWidth > windowHeight){
 
 else (windowHeight == "" || windowWidth == ""){
 	console.log("You need to enter width and height");
+	//print a message to remenber to enter the width and height to calcletes the area 
 }
