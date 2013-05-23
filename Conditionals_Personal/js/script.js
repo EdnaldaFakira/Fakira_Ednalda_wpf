@@ -12,8 +12,9 @@ var totalPrice = priceTicket + hotelDays * hotel + carTakes * carRent; //total p
 
 if (flightTime 6 =< 22 && destinationEnter === "Florida" || age > 12) {
 	console.log("You have a 10% of discount and your vacation packet is $" + totalPrice);
-	//customer gets 10% of discount if choose to travel between 10 PM and 6 AM
+	//customer gets 10% of discount if choose to travel between 10:00 PM and 6:00 AM
 }
 else if (flightTime 6 > 22 && destinationEnter === "Florida") {
 	console.log("You have 5% of discount and your vacation packet is $" + totalPrice);
+	//traveling betwen 6:00 AM and 9:59 PM to Florida get 5% of discount 
 }
