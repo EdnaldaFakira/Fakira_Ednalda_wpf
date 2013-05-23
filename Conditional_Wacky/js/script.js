@@ -5,7 +5,7 @@ var age = prompt("How old are you?"); //declares the variable age and defines va
 var state = prompt("Please enter the state you live"); //dclares the variable state and defines value as prompt as state
 var legal = prompt("Are you citizens or legal resident");//declares the variable legal and defines value as prompt to enter the legal status
 var cost = 50; //declares the variable cost and defines value as 50
-var costFlorida = 50 * 6 / 100 + cost;
+var costFlorida = 50 * 6 / 100 + cost; //declares the variable costFlorida and defines value as 50 + 6%
 var costOtherState = 50 * 8 / 100 + cost;
 
 if (age >= 18 && legal === yes && state === "Florida"){
