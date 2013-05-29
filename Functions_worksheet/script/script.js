@@ -2,9 +2,9 @@
 
 //Calculates the circumference of the circle
 
-var totalCircumference = calcCircunference(5);//Defines the variable and defines value as the variable calcCircumference and values as 5 and 2
+var totalCircumference = calcCircumference(5);//Defines the variable and defines value as the variable calcCircumference and values as 5 and 2
 
-function calcCircunference(radius){ //Defines the function that hold the parameter radius
+function calcCircumference(radius){ //Defines the function that hold the parameter radius
 var circumference = radius * 3.14;//Defines the variable circumference and defines value as variable diameter / 2.
 return circumference //function spitting the info out
 }
