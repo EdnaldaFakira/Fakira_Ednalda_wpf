@@ -7,3 +7,8 @@ unction outMsg(){
  	var area = widht * height;
  	console.log(area);
  }
+
+ calcArea();
+ calcArea();
+ calcArea();
+ 
