@@ -23,13 +23,21 @@
 	//console.log(area); //print out the area
 //}
 
-function dogYears(age){ //parameters store the value
-	var age =4;
-	var doYears = age * 7;
-	console.log("Sparky is " + dogYears + "years old.")
-}
+//function dogYears(age){ //parameters store the value (hold)
+	//var age =4;
+	//var doYears = age * 7;
+	//console.log("Sparky is " + dogYears + "years old.")
+//}
 
-var age1 = 4;
-dogYears(age1); //arguments
-dogYears(4); //call the function
-dogYears(6); //call the function
+//var age1 = 4; 
+//dogYears(age1); //arguments
+//dogYears(4); //call the function (pass the value)
+//dogYears(6); //call the function
+
+var total = calArea(30, 20);
+
+function calArea(w * h) {
+	var area = w * h;
+	return area; //function spitting the info out
+}
+console.log(total); //function should be return variables
