@@ -17,7 +17,7 @@ console.log("The circumference of the circle is" + totalCircumference); //print 
 var totalStings =  calcBeeStings(130);
 function calcBeeStings (victimWeight){
 	var beeStings = victimWeight * 8.7;
-	return calcBeeStings
+	return beeStings
 }
 console.log("It takes" + totalStings + "to kill a" + totalStings + "pounds animal")
 
