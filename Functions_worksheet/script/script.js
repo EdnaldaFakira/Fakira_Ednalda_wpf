@@ -12,6 +12,7 @@ return circumference = //function spitting the info out
 console.log("The circumference of the circle is" + totalCircumference); //print out the totalCircumference as a message
 
 
+var victimWeight = 130;
 
 
 
