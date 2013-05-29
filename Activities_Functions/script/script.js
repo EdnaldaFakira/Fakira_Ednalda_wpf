@@ -18,7 +18,7 @@
 //console.log(width); //print variable widht
 
 //calArea(30, 20); //Arguments
-//function calArea(w, h){ // Parameters w=30, h=20
+//function calcArea(w, h){ // Parameters w=30, h=20
 	//var area = w * h; 
 	//console.log(area); //print out the area
 //}
@@ -34,10 +34,23 @@
 //dogYears(4); //call the function (pass the value)
 //dogYears(6); //call the function
 
-var total = calArea(30, 20);
+var total = calcArea(30, 20);
 
-function calArea(w * h) {
+function calcArea(w * h) {
 	var area = w * h;
 	return area; //function spitting the info out
 }
-console.log(total); //function should be return variables
+console.log(total); //function should be return variables parameters
+
+//this is a function
+function calcArea(width, height){
+	var area = width * height;
+	return area;
+
+}
+
+//this is a procedure
+function calcArea(width, height){
+	var area = width * height;
+	console.log(area); //no return
+}
