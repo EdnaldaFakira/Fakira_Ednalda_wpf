@@ -10,9 +10,9 @@ var circumference = radius * 3.14;//Defines the variable circumference and defin
 return circumference; //function spitting the info out
 }
 
-var c = ("The circumference of the circle is" + totalCircumference); 
+var c = totalCircumference(5); 
 
-console.log(c);//print out the totalCircumference as a message
+console.log("The circumference of the circle is" + c);//print out the totalCircumference as a message
 
 
 
