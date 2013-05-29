@@ -14,7 +14,7 @@ console.log("The circumference of the circle is" + totalCircumference); //print 
 
 
 
-var totalStings =  calcBeeStings(130);
+var totalStings =  calcBeeStings(130);//defines the variable totalStings and defines value as variable calcBeeStings as 130 pounds
 function calcBeeStings (victimWeight){
 	var beeStings = victimWeight * 8.7;
 	return beeStings
