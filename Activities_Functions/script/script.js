@@ -17,11 +17,17 @@
 
 //console.log(width); //print variable widht
 
+
+
+
 //calArea(30, 20); //Arguments
 //function calcArea(w, h){ // Parameters w=30, h=20
 	//var area = w * h; 
 	//console.log(area); //print out the area
 //}
+
+
+
 
 //function dogYears(age){ //parameters store the value (hold)
 	//var age =4;
@@ -29,28 +35,56 @@
 	//console.log("Sparky is " + dogYears + "years old.")
 //}
 
+
+
+
+
 //var age1 = 4; 
 //dogYears(age1); //arguments
 //dogYears(4); //call the function (pass the value)
 //dogYears(6); //call the function
 
-var total = calcArea(30, 20);
 
-function calcArea(w * h) {
-	var area = w * h;
-	return area; //function spitting the info out
-}
-console.log(total); //function should be return variables parameters
+
+
+//var total = calcArea(30, 20);
+
+//function calcArea(w * h) {
+	//var area = w * h;
+	//return area; //function spitting the info out
+//}
+//console.log(total); //function should be return variables parameters
+
+
+
+
+
 
 //this is a function
-function calcArea(width, height){
-	var area = width * height;
-	return area;
+//function calcArea(width, height){
+	//var area = width * height;
+	//return area;
 
-}
+//}
 
 //this is a procedure
-function calcArea(width, height){
+//function calcArea(width, height){
+	//var area = width * height;
+	//console.log(area); //no return
+//}
+
+
+
+
+
+
+// Anonymous Functions
+
+var calcArea = function(width, height) {
+	//code the function runs
 	var area = width * height;
-	console.log(area); //no return
+	return area;	
 }
+ var a = calcArea(20, 30); //invoking
+ console.log(a);
+ 
