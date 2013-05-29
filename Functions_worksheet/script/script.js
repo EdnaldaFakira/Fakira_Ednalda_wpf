@@ -23,7 +23,9 @@ var totalStings =  function calcBeeStings (victimWeight){ //defines function cal
 	var beeStings = victimWeight * 8.7; //defines variable beeStings and defines value as victimWeight * 8.7 (number of stings per pound to kill an animal)
 	return beeStings //it returns the value in the function
 }
+
  var s = totalStings (130);
+
 console.log("It takes" + totalStings + "to kill a" + victimWeight + "pounds animal");//print out the totalStings required to kill the victimWeight in pounds
 
 
