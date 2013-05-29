@@ -6,13 +6,19 @@ var totalCircumference = calcCircunference(5);//Defines the variable and defines
 
 function calcCircunference(radius){
 var circumference = radius * 3.14;//Defines the variable circumference and defines value as variable diameter / 2.
-return circumference = //function spitting the info out
+return circumference //function spitting the info out
 }
 
 console.log("The circumference of the circle is" + totalCircumference); //print out the totalCircumference as a message
 
 
-var victimWeight = 130;
 
+
+var totalStings =  calcBeeStings(130);
+function calcBeeStings (victimWeight){
+	var beeStings = victimWeight * 8.7;
+	return calcBeeStings
+}
+console.log("It takes" + totalStings + "to kill a" + calcBeeStings + "pounds animal")
 
 
