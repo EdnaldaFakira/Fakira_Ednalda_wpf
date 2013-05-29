@@ -19,6 +19,6 @@ function calcBeeStings (victimWeight){
 	var beeStings = victimWeight * 8.7;
 	return beeStings
 }
-console.log("It takes" + totalStings + "to kill a" + totalStings + "pounds animal")
+console.log("It takes" + totalStings + "to kill a" + victimWeight + "pounds animal");//print out the totalStings required to kill the victimWeight in pounds
 
 
