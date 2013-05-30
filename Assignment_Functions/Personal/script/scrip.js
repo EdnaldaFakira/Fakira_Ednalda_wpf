@@ -7,15 +7,6 @@ var houseModel = prompt("Please enter the model of the house you whish to build"
 var garage = prompt("Please, enter yes if you want a garage, or no if you don't want a garage");//declares variable and defines value as prompt command to enter the yes or no
 var floor = prompt("Please enter the floor");//declares variable and defines value as prompt command to enter floor choice
 
-
-var colonial = 30000;//declares variable colonial and defines value as $30,000
-var cape = 10000;//declares variable cape and defines value as $10,000
-var farm = 15000;//declares variable farm and defines value as $15,000
-
-var wood = 20;//declares variable woodFloor and defines value as $20
-var carpet = 5;//declares variable carpetFloor and defines value as $5
-var tile = 10;//declares variable tileFloor and defines value as $10
-
 var pricePerSqF = function calcHouseSize (area){//declares variable pricePerSqF and defines value as function holding parameter "area"
 	var calcAreaPrice = area * 130;//declares variable calAreaPrice and defines value as area * $130
 }
@@ -25,3 +16,4 @@ var size = pricePerSqF (houseSize);//declares variable size and defines value as
 
 
 console.log("The total area of your house will cost $" + calcAreaPrice);//print out the house cost based in the area chose
+
