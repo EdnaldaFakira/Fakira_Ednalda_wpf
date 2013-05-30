@@ -2,6 +2,8 @@
 	//console.log("Hello World"); //print the message defines by function
 //}
 
+
+
 //var width = 5; //variable scope
 
  //function calcArea(){
@@ -15,10 +17,11 @@
  //calcArea();
  //calcArea();
 
+
+
+ 
+
 //console.log(width); //print variable widht
-
-
-
 
 //calArea(30, 20); //Arguments
 //function calcArea(w, h){ // Parameters w=30, h=20
@@ -78,7 +81,7 @@
 
 
 
-// Anonymous Functions
+// Anonymous Functions (closures) same time the code runs
 
 var calcArea = function(width, height) {
 	//code the function runs
@@ -87,4 +90,4 @@ var calcArea = function(width, height) {
 }
  var a = calcArea(20, 30); //invoking
  console.log(a);
- 
+
