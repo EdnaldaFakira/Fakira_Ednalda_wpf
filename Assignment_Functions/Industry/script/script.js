@@ -22,7 +22,7 @@ var p = calcPrice(pagesNumber, 20);//declares variable and defines value as calc
 
 console.log(p);//print out a value
 
-var totalCost = (initialPrice + 50) * 6 / 100;
+var totalCost = (initialPrice + 50) * 6 / 100;//declares variable totalCost and defines value as initialCost + $50 for videos cost + 6% tax
 
 
-videos = (yes) ? console.log (" Your basic website is $" + initialPrice) : console.log("Your website price is $" + totalCost)
+videos = (yes) ? console.log (" Your basic website is $" + initialPrice) : console.log("Your website price is $" + totalCost)//if statement makes decision and print out initialCost or totalCost 
