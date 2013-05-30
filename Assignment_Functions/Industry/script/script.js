@@ -22,7 +22,9 @@ console.log(calcArea);
 
 //console.log(p);//print out a value
 
-var totalCost = (initialPrice + 50) * 6 / 100;//declares variable totalCost and defines value as initialCost + $50 for videos cost + 6% tax
+var initialPrice = totalPages * 6 / 100;//declares variable initialPrice and defines values as totalPages + 6% tax
+
+var totalCost = (totalPages + 50) * 6 / 100;//declares variable totalCost and defines value as initialCost + $50 for videos cost + 6% tax
 
 
-videos = (yes) ? console.log (" Your basic website is $" + initialPrice + "included tax") : console.log("Your website price is $" + totalCost + "included tax")//if statement makes decision and print out initialCost or totalCost 
+videos = (no) ? console.log (" Your basic website is $" + initialPrice + "included tax with " + pagesNumber + " pages, " + websiteTitle + "as website title for" + customerName) : console.log("Your website price is $" + totalCost + "included tax with " + pagesNumber + " pages, " + websiteTitle + "as website title for " + customerName);//if statement makes decision and print out initialCost or totalCost  + customer information
