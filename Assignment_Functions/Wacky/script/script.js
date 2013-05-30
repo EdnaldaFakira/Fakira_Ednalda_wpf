@@ -32,7 +32,7 @@ var boxSize = function calcBoxSize (width, height){ //declares variable boxSize 
  	console.log("Please enter information");//print out the message "Please enter information"
  }
 
- else{//decides statement
+ else{//decides statement other choice
  	console.log("We can't ship your boxes");// print out the message "We can't ship your boxes"
  }
 
