@@ -16,5 +16,25 @@ var boxSize = function calcBoxSize (width, height){
  var size = boxSize(boxWidth, boxHight);
  console.log(size);
 
+ var price = size * 0.25 * 6 / 100;
 
+
+
+ var customerName = prompt("Please enter your full name");
+ var customerAddress = prompt("Please enter your address");
+ var customerState = prompt("Please enter your State");
  
+
+ if(boxColor = "white" && boxType = "pizza" && customerState = "California"){
+ 	console.log("we can ship you pizza box and will cost $" + price);
+ }
+
+ if else(boxQt = "" || boxWidth = "" || boxHight = "" || boxColor = "" || boxType = ""){
+ 	console.log("Please enter information");
+ }
+
+ else{
+ 	console.log("We can't ship your boxes");
+ }
+
+
