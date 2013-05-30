@@ -11,5 +11,12 @@ var woodFloor = 20;//declares variable woodFloor and defines value as $20
 var carpetFloor = 5;//declares variable carpetFloor and defines value as $5
 var tileFloor = 10;//declares variable tileFloor and defines value as $10
 
+var pricePerSqF = function calcHouseSize (area){
+	var calcAreaPrice = calcHouseSize * 130;
+}
 
+var size = pricePerSqF (houseSize);
+
+
+console.log()
 
