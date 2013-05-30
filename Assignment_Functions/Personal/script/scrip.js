@@ -9,12 +9,9 @@ var garage = prompt("Please, enter yes if you want a garage, or no if you don't 
 var pricePerSqF = function calcHouseSize (area){//declares variable pricePerSqF and defines value as function holding parameter "area"
 	var calcAreaPrice = area * 130;//declares variable calAreaPrice and defines value as area * $130
 }
-
-var size = pricePerSqF (houseSize);//declares variable size and defines value as pricePerSqF calling function
-
-
-
+var size = pricePerSqF(houseSize);//declares variable size and defines value as pricePerSqF calling function
 console.log("The total area of your house will cost $" + calcAreaPrice);//print out the house cost based in the area chose
+
 
 var totalHouse = calcAreaPrice + 20,000;//declares variable toralHouse and defines value as calArePrice + $20,000
 
