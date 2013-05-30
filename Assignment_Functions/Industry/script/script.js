@@ -8,6 +8,16 @@ var customerName = prompt("Please, enter your full name");//declares variable cu
 var customerEmail = prompt("Please, enter your email address");//declares variable customerEmail and defines value as prompt command of email address
 var customerPassword = prompt("Please, enter your password");//declares variable customerPassword and defines value as prompt command of password
 
+//function calcArea ();
+//var totalPages = pagesNumber * 20;
+//return totalPages;
+//console.log(calcArea);
 
+var calcArea = function(pages, price){//declares variable calcArea and defines value as function with parameters "pages" and "price"
+	var area = pages * price;//declares variable area and defines value as pages * price
+	return area;//declares the return as returning the value equal to the area value
+}
+var a = calcArea(pagesNumber, 20);//declares variable and defines value as calcArea  
+console.log(a);//print out a value
 
 
