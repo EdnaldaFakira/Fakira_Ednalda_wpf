@@ -19,7 +19,7 @@ if(garage = yes && houseSize != "")//decides if wants garage
 	console.log("We can build your house for $" + totalHouse);//print out the total value of the house
 }
 
-if else(garage = no && house != ""){//decides if don't want the garage 
+if else(garage = no && house != ""){//decides don't want the garage 
 	console.log("We can build your house for $" + calAreaPrice);//print out the value of the house
 }
 
