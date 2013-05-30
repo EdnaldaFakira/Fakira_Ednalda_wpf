@@ -11,12 +11,14 @@ var woodFloor = 20;//declares variable woodFloor and defines value as $20
 var carpetFloor = 5;//declares variable carpetFloor and defines value as $5
 var tileFloor = 10;//declares variable tileFloor and defines value as $10
 
-var pricePerSqF = function calcHouseSize (area){
-	var calcAreaPrice = area * 130;
+var pricePerSqF = function calcHouseSize (area){//declares variable pricePerSqF and defines value as function holding parameter "area"
+	var calcAreaPrice = area * 130;//declares variable calAreaPrice and defines value as area * $130
 }
 
-var size = pricePerSqF (houseSize);
+var size = pricePerSqF (houseSize);//declares variable size and defines value as pricePerSqF calling function
 
 
-console.log()
+
+console.log("The total area of your house will cost $" + calcAreaPrice);//print out the house cost based in the area chose
+
 
