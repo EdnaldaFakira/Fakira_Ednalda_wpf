@@ -15,7 +15,7 @@ var videos = prompt("Please, enter yes or no if you want videos")//declares vari
 //console.log(calcArea);
 
 var calcPrice = function(pages, price){//declares variable calcArea and defines value as function with parameters "pages" and "price" while code runs
-	var initialPrice = pages * price;//declares variable area and defines value as pages * price
+	var initialPrice = (pages * price) * 6 / 100;//declares variable area and defines value as pages * price + 6% tax
 	return initialPrice;//declares the return as returning the value equal to the area value
 }
 var p = calcPrice(pagesNumber, 20);//declares variable and defines value as calcArea as invoking function 
@@ -25,4 +25,4 @@ console.log(p);//print out a value
 var totalCost = (initialPrice + 50) * 6 / 100;//declares variable totalCost and defines value as initialCost + $50 for videos cost + 6% tax
 
 
-videos = (yes) ? console.log (" Your basic website is $" + initialPrice) : console.log("Your website price is $" + totalCost)//if statement makes decision and print out initialCost or totalCost 
+videos = (yes) ? console.log (" Your basic website is $" + initialPrice + "included tax") : console.log("Your website price is $" + totalCost + "included tax")//if statement makes decision and print out initialCost or totalCost 
