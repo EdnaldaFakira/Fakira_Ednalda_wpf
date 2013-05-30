@@ -9,18 +9,18 @@ var customerEmail = prompt("Please, enter your email address");//declares variab
 var customerPassword = prompt("Please, enter your password");//declares variable customerPassword and defines value as prompt command of password
 var videos = prompt("Please, enter yes or no if you want videos")//declares variable videos and defines value as prompt command of yes or no
 
-//function calcArea ();
-//var totalPages = pagesNumber * 20;
-//return totalPages;
-//console.log(calcArea);
+function calcArea ();
+var totalPages = pagesNumber * 20;
+return totalPages;
+console.log(calcArea);
 
-var calcPrice = function(pages, price){//declares variable calcArea and defines value as function with parameters "pages" and "price" while code runs
-	var initialPrice = (pages * price) * 6 / 100;//declares variable area and defines value as pages * price + 6% tax
-	return initialPrice;//declares the return as returning the value equal to the area value
-}
-var p = calcPrice(pagesNumber, 20);//declares variable and defines value as calcArea as invoking function 
+//var calcPrice = function(pages, price){//declares variable calcArea and defines value as function with parameters "pages" and "price" while code runs
+	//var initialPrice = (pages * price) * 6 / 100;//declares variable area and defines value as pages * price + 6% tax
+	//return initialPrice;//declares the return as returning the value equal to the area value
+//}
+//var p = calcPrice(pagesNumber, 20);//declares variable and defines value as calcArea as invoking function 
 
-console.log(p);//print out a value
+//console.log(p);//print out a value
 
 var totalCost = (initialPrice + 50) * 6 / 100;//declares variable totalCost and defines value as initialCost + $50 for videos cost + 6% tax
 
