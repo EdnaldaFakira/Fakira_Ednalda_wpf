@@ -13,11 +13,11 @@ var customerPassword = prompt("Please, enter your password");//declares variable
 //return totalPages;
 //console.log(calcArea);
 
-var calcArea = function(pages, price){//declares variable calcArea and defines value as function with parameters "pages" and "price"
-	var area = pages * price;//declares variable area and defines value as pages * price
+var calcPrice = function(pages, price){//declares variable calcArea and defines value as function with parameters "pages" and "price" while code runs
+	var initialPrice = pages * price;//declares variable area and defines value as pages * price
 	return area;//declares the return as returning the value equal to the area value
 }
-var a = calcArea(pagesNumber, 20);//declares variable and defines value as calcArea  
+var a = calcPrice(pagesNumber, 20);//declares variable and defines value as calcArea as invoking function 
 console.log(a);//print out a value
 
 
