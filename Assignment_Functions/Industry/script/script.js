@@ -7,6 +7,7 @@ var websiteTitle = prompt("Please, enter the title of your website");//declares 
 var customerName = prompt("Please, enter your full name");//declares variable customerName and defines the value as prompt command of customer full name
 var customerEmail = prompt("Please, enter your email address");//declares variable customerEmail and defines value as prompt command of email address
 var customerPassword = prompt("Please, enter your password");//declares variable customerPassword and defines value as prompt command of password
+var videos = prompt("Please, enter yes or no if you want videos")//declares variable videos and defines value as prompt command of yes or no
 
 //function calcArea ();
 //var totalPages = pagesNumber * 20;
@@ -15,9 +16,13 @@ var customerPassword = prompt("Please, enter your password");//declares variable
 
 var calcPrice = function(pages, price){//declares variable calcArea and defines value as function with parameters "pages" and "price" while code runs
 	var initialPrice = pages * price;//declares variable area and defines value as pages * price
-	return area;//declares the return as returning the value equal to the area value
+	return initialPrice;//declares the return as returning the value equal to the area value
 }
-var a = calcPrice(pagesNumber, 20);//declares variable and defines value as calcArea as invoking function 
-console.log(a);//print out a value
+var p = calcPrice(pagesNumber, 20);//declares variable and defines value as calcArea as invoking function 
+
+console.log(p);//print out a value
+
+var totalCost = (initialPrice + 50) * 6 / 100;
 
 
+videos = (yes) ? console.log (" Your basic website is $" + initialPrice) : console.log("Your website price is $" + totalCost)
