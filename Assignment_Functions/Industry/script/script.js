@@ -9,10 +9,10 @@ var customerEmail = prompt("Please, enter your email address");//declares variab
 var customerPassword = prompt("Please, enter your password");//declares variable customerPassword and defines value as prompt command of password
 var videos = prompt("Please, enter yes or no if you want videos")//declares variable videos and defines value as prompt command of yes or no
 
-function calcArea ();
-var totalPages = pagesNumber * 20;
-return totalPages;
-console.log(calcArea);
+function calcArea ();//declares function to hold value
+var totalPages = pagesNumber * 20;//declares variable totalPages and defines the value as to calculate  pagesNumber * $20
+return totalPages;//retuns the value
+console.log(calcArea);//print out the value of the function
 
 //var calcPrice = function(pages, price){//declares variable calcArea and defines value as function with parameters "pages" and "price" while code runs
 	//var initialPrice = (pages * price) * 6 / 100;//declares variable area and defines value as pages * price + 6% tax
